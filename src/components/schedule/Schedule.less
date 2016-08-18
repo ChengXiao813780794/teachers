@@ -1,0 +1,124 @@
+
+.schedule {
+  height: 100%;
+}
+.side-list {
+  width: 250px;
+  height: 100%;
+  background: #f4f4f4;
+  border-right: 1px solid #e9e9e9;
+  h2 {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #6a6a6a;
+    font-weight: 500;
+    button {
+      margin-left: 10px;
+    }
+  }
+  .side-list-scroll-bar > div {
+    z-index: 0;
+  }
+  .side-list-warning {
+    height: 30px;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 14px;
+    background: rgb(247, 216, 171);
+    color: rgb(199, 129, 36);
+  }
+  .side-list-header {
+    height: 70px;
+    padding: 18px 10px;
+    border-bottom: 1px solid #e9e9e9;
+    vertical-align: middle;
+  }
+  .side-list-item {
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 12px;
+    .side-list-item-logo {
+      margin-right: 10px;
+      width: 44px;
+      height: 44px;
+      padding: 4px;
+      border-radius: 50%;
+      background: #FFF;
+    }
+    .side-list-item-title {
+      font-weight: bold;
+      line-height: 20px;
+    }
+    .side-list-item-date {
+      line-height: 20px;
+    }
+  }
+  .ant-menu,
+  .ant-menu-item,
+  .ant-menu-submenu {
+    border-width: 0;
+    left: 0;
+    margin-left: 0;
+    background: #f4f4f4;
+  }
+  .ant-menu-item-active,
+  .ant-menu-item-selected,
+  .ant-menu-submenu-active,
+  .ant-menu-submenu-title:hover {
+    background-color: rgba(0,0,0,0.05);
+  }
+}
+.main-content {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  flex: 1;
+  height: 100%;
+  .schedule-header {
+    height: 70px;
+    border-bottom: 1px solid #e9e9e9;
+    vertical-align: middle;
+    .schedule-header-logo {
+      margin: 0 10px;
+      width: 50px;
+      height: 50px;
+      padding: 5px 5px;
+      border: 1px solid #e9e9e9;
+      border-radius: 5px;
+    }
+    .schedule-header-action {
+      float: right;
+      margin-right: 10px;
+      min-width: 80px;
+      border: none;
+    }
+    .schedule-header-action > i{
+      font-size: 24px;
+    }
+  }
+  .schedule-content {
+    padding: 20px;
+    .schedule-content-knowledge{
+       .bottom-line;
+       .pb20;
+       .fs12;
+       line-height: 34px;
+    }
+  }
+}
+
+
+//公用属性star 
+.bottom-line{border-bottom: 1px solid #e9e9e9;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.pb20{padding-bottom: 20px}
+.fs12{font-size: 12px;}
+.display-inline{display:inline}
+.full-width-height{position: absolute;top:0;left: 0;bottom: 0;right: 0;}
+//公用属性end
+
+

@@ -1,0 +1,137 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Helvetica Neue','Hiragino Sans GB',stheiti,'Microsoft Yahei','微软雅黑',tahoma,sans-serif;
+}
+
+body {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  color: #555459;
+}
+
+.left-panel {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(39, 166, 218);
+  .avatar {
+    padding: 15px 0;
+    text-align: center;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid #a1fffb;
+    }
+  }
+  .nav {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    a {
+      display: block;
+      position: relative;
+      height: 60px;
+      line-height: 60px;
+      font-size: 22px;
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      text-align: center;
+    }
+    a:hover, a.active {
+      color: #FFF;
+      background:rgba(255, 255, 255, 0.2);
+    }
+    .new-message {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      .ant-badge-dot {
+        box-shadow: none;
+      }
+    }
+  }
+  .logout {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    a {
+      display: block;
+      height: 60px;
+      line-height: 60px;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+    }
+    a:hover, a.active {
+      color: #FFF;
+      background:rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+.center-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 60px;
+  height: 100%;
+}
+
+.chat-user-list {
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 8px 0 -15px;
+  }
+}
+
+.center-panel-right {
+  width: auto;
+  min-width: 40px;
+  height: 100%;
+}
+iframe {
+  border: none;
+}
+.ant-menu-item {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ant-confirm-error .ant-confirm-body>.anticon {
+  color: #f50;
+}
+
+.ant-confirm-warning .ant-confirm-body > .anticon,
+.ant-confirm-confirm .ant-confirm-body > .anticon {
+  color: #fa0;
+}
+
+.ant-confirm-info .ant-confirm-body > .anticon {
+  color: #2db7f5;
+}
+
+.ant-confirm-success .ant-confirm-body > .anticon {
+  color: #87d068;
+}

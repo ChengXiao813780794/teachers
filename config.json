@@ -1,0 +1,17 @@
+{
+  "development": {
+    "host": "dev.97kid.com",
+    "database": "dev",
+    "username": "api_dev",
+    "password": "abcde12345"
+  },
+  "test": {
+
+  },
+  "production": {
+    "host": "dev.97kid.com",
+    "database": "dev",
+    "username": "api_dev",
+    "password": "abcde12345"
+  }
+}
